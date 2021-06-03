@@ -1,6 +1,6 @@
 const dbd = require("dbd.js")
 const bot = new dbd.Bot({
-token: process.env.TOKEN, 
+token: ayarlar.token, 
 prefix: "!" 
 })
 bot.onMessage()
